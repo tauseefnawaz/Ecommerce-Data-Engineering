@@ -1,0 +1,9 @@
+{
+	"name": "adf-babita-demo",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "3ed93622-2f9e-4969-854d-a3f2112725b9",
+		"tenantId": "d52c9ea1-7c21-47b1-82a3-33a74b1f74b8"
+	}
+}

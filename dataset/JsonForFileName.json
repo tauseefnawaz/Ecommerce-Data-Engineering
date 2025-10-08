@@ -1,0 +1,19 @@
+{
+	"name": "JsonForFileName",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "githubLink",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Json",
+		"typeProperties": {
+			"location": {
+				"type": "HttpServerLocation",
+				"relativeUrl": "BigDataProject/refs/heads/main/file_name.json"
+			}
+		},
+		"schema": {}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
